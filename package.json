@@ -1,0 +1,15 @@
+{
+  "name": "globaltech",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "GlobalTech Financial, LLC",
+  "scripts": {
+    "compile:sass": "node-sass -w sass/main.scss css/style.css"
+  },
+  "repository": "https://github.com/juanocasio/globaltech.git",
+  "author": "juanocasio <juanocasio@comcast.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "4.5.3"
+  }
+}

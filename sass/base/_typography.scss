@@ -1,0 +1,27 @@
+body {
+    font-family: 'karla', 'Ariel', sans-serif;
+    padding: 3rem;
+    font-size: 1.6rem;
+    line-height: 1.7;
+}
+
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+    &--main {
+        display: block;
+        font-size: 4rem;
+        font-weight: 400;
+        letter-spacing: 1.5rem;
+        animation: InFromLeft 1s ease-out;
+    }
+    &--secondary {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.05rem;
+        animation: InFromRight 1s ease-out;
+    }
+}
