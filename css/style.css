@@ -31,6 +31,18 @@ body {
     opacity: 1;
     transform: translate(0); } }
 
+.features {
+  padding: 8rem; }
+
+.util-center-text {
+  text-align: center; }
+
+.util-margin-bottom-6 {
+  margin-bottom: 8rem; }
+
+.util-margin-bottom-8 {
+  margin-bottom: 8rem; }
+
 body {
   font-family: 'karla', 'Ariel', sans-serif;
   padding: 3rem;
@@ -55,9 +67,15 @@ body {
     letter-spacing: 1.05rem;
     animation: InFromRight 1s ease-out; }
 
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #B21409; }
+
 .header {
   position: relative;
-  height: 95vh;
+  height: 90vh;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.05)), url("../images/boardroom.jpg");
   background-size: cover;
   background-position: top; }
@@ -76,7 +94,6 @@ body {
 
 .row {
   max-width: 114rem;
-  background-color: #eee;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
@@ -105,9 +122,8 @@ body {
 .col-3-of-4 {
   width: calc(((100% - 3 * 6rem) /4)*3 + (2 * 6rem)); }
 
-.features {
-  padding: 8rem; }
+[class^="section-"] {
+  background-color: #f7f7f7; }
 
 .section-about {
-  background-color: #f7f7f7;
-  padding: 25rem 0; }
+  padding: 10rem 0; }
